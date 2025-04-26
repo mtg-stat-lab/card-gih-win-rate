@@ -44,6 +44,10 @@
         }
 
         ul {
+            padding-left: 20px;
+        }
+
+        ul.checklist {
             list-style: none;
             padding-left: 0;
         }
@@ -82,7 +86,7 @@
         <div class="column">
             <div class="section">
                 <h2>🎲 Before Drafting</h2>
-                <ul>
+                <ul class="checklist">
                     <li>☐ Can I focus?<label>Take one of two attention tests.</label></li>
                     <li>☐ Why am I really playing?<label>Fun, curiosity, rank push, practice, decompression,
                             tilt?</label></li>
@@ -95,8 +99,8 @@
             </div>
 
             <div class="section">
-                <h2>🧠 During Matches</h2>
-                <ul>
+                <h2>🎲 During Matches</h2>
+                <ul class="checklist">
                     <li>☐ See the whole board.<label>Grok all cards, oppo intent, key threats.</label></li>
                     <li>☐ Plan turn — and next.<label>Sequence carefully, control game, find lethal.</label></li>
                     <li>☐ Trust the line.<label>Find → Commit → Execute.</label></li>
@@ -105,7 +109,7 @@
 
             <div class="section">
                 <h2>🛡️ If You Blunder</h2>
-                <ul>
+                <ul class="checklist">
                     <li>☐ Immediate timeout.<label>Stop playing.</label></li>
                     <li>☐ Blunder note (1 line).<label>E.g., "Missed oppo's pump spell."</label></li>
                     <li>☐ Reset.<label>Take a 1, 10 or 60 minute reset.</label></li>
@@ -116,30 +120,52 @@
         <!-- Focus Tests Column -->
         <div class="column">
             <div class="section">
-                <h2>⏲️ Timer Focus Test</h2>
-                <p><strong>Goal:</strong> Detect mental drift internally.</p>
+                <h2>⏲️ Timer Focus Test (Internal Focus)</h2>
+                <p><strong>Goal:</strong> Detect mental drift during a simple internal task.</p>
                 <p><strong>Steps:</strong></p>
                 <ul>
-                    <li>Set 30s timer (phone hidden).</li>
-                    <li>Close eyes, count seconds steadily ("one... two...").</li>
-                    <li>Open eyes when you believe 30s passed.</li>
+                    <li>Set a 30-second timer (phone face down or hidden).</li>
+                    <li>Sit comfortably. Close your eyes.</li>
+                    <li>Focus only on counting seconds steadily in your mind:
+                        <ul>
+                            <li>"one... two... three..." — no breathing tricks, no body cues.</li>
+                        </ul>
+                    </li>
+                    <li>When you believe 30 seconds have passed, open your eyes.</li>
                 </ul>
-                <p><strong>Pass:</strong> No distractions, no sleepiness, calm count.</p>
-                <p><em>Fail → Reset before queuing.</em></p>
+                <p><strong>Pass Criteria:</strong></p>
+                <ul>
+                    <li>No distracting thoughts.</li>
+                    <li>No "falling asleep" mid-count.</li>
+                    <li>Calm, smooth counting experience.</li>
+                </ul>
+                <p><em>If fail: Attention is fragmented. Reset before queuing.</em></p>
             </div>
 
             <div class="section">
-                <h2>🛬 Visual Grounding Test</h2>
-                <p><strong>Goal:</strong> Detect drift while observing external detail.</p>
+                <h2>🛬 Visual Object Grounding Test (External Focus)</h2>
+                <p><strong>Goal:</strong> Detect mental drift while observing external detail.</p>
                 <p><strong>Steps:</strong></p>
                 <ul>
-                    <li>Name 5 objects you see.</li>
-                    <li>Pick 1 object, observe details for 30s.</li>
+                    <li>Look around and silently name 5 objects you can see (e.g., "lamp, chair, desk").</li>
+                    <li>Pick one object (e.g., a lamp).</li>
+                    <li>Spend 30 seconds focusing completely on that object:
+                        <ul>
+                            <li>Observe colors, shapes, textures.</li>
+                            <li>Notice small details without letting your mind wander.</li>
+                        </ul>
+                    </li>
                 </ul>
-                <p><strong>Pass:</strong> No drift, no impatience, steady focus.</p>
-                <p><em>Fail → Reset before queuing.</em></p>
+                <p><strong>Pass Criteria:</strong></p>
+                <ul>
+                    <li>No thought drift away from the object.</li>
+                    <li>No impatience or internal storytelling.</li>
+                    <li>Calm, steady external attention.</li>
+                </ul>
+                <p><em>If fail: Attention not anchored. Reset before queuing.</em></p>
             </div>
         </div>
+
 
         <!-- Reset Drills Column -->
         <div class="column">
